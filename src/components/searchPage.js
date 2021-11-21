@@ -21,8 +21,7 @@ const Search = () => {
             toLowerCase().includes(search.toLowerCase()))
 
     return (
-        <div>
-            <h3>PRODUCTS LIST</h3>
+        <div style={{ marginLeft: "10%", marginLeft: "10%" }}>
             <input
                 type="text"
                 placeholder="Search name"
