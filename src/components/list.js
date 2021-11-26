@@ -30,7 +30,7 @@ const List = ({ products }) => {
 
                                 <Card.Img responsive variant="right" src={product.cloudinaryImageId} />
 
-                                <Button style={{ background: "#fff", position: "absolute", right: "70px", bottom: "65px", border: "2px solid skyblue" }} variant="flat" size="xxl" onClick={() => { console.log("This is : " + product.name); }}>
+                                <Button style={{ color: "green", background: "#fff", position: "absolute", right: "70px", bottom: "65px", border: "2px solid skyblue" }} variant="flat" size="xxl" onClick={() => { console.log("This is : " + product.name); }}>
 
                                     Add
                                     <FaPlus />
